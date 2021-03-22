@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(210, 180, 140, 0.7);
+	
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo
+{
+	position: relative;
+	max-width: 80px;
+
+}
+header ul
+{
+	position: relative;
+	display: flex;
+
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	display: inline-block;
+	color: #333;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+footer
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+footer h6
+{
+	size: 5px;
+	color: #333;
+}
+.content
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .textBox
+{
+	position: relative;
+	max-width: 500px;
+}
+.content .textBox h2
+{
+	color: #333;
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 600;
+}
+.content .textBox h2 span
+{
+	color: #A0522D;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.content .textBox p
+{
+	color: #333;
+	font-weight: 500;
+}
+.content .textBox a
+{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: #D2691E;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.content .imgBox
+{
+	width: 600px;
+	display: flex;
+	justify-content: end;
+	padding-right: 50px;
+	margin-top: 50px;
+}
+.content .imgBox img
+{
+	max-width: 430px;
+
+}
+img.autor
+{
+	float: right;
+	padding: 1px;
+	width: 80%;
+	border-radius: 30% 20%;
+	margin-left: 100px;
+}
+.thumb
+{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	display: flex;
+}
+.thumb li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+	height: 90px;
+}
+.thumb li:hover
+{
+	transform: translateY(-15px);
+}
+.net
+{
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.net li
+{
+	list-style: none;
+
+}
+.net li a
+{
+	display: inline-block;
+	margin: 5px 0;
+	transform: scale(0.6);
+	filter: invert(1);
+}
+.content .tytul
+{
+	position: relative;
+	max-width: 600px;
+}
+.content .tytul h2
+{
+	color: #A0522D;
+	font-size: 4em;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+.content .tytul p
+{
+	color: rgba(50,26,6,0.9);
+	padding-right: 10px;
+	margin-right: 10px;
+	font-weight: 500;
+}
+.content .tytul a
+{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: #D2691E;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.content .imga
+{
+	float: left;
+	width: 500px;
+	display: flex;
+	justify-content: end;
+	padding-left: 50px;
+	margin-top: 50px;
+
+}
+.content .img
+{
+	max-width: 330px;
+}
+td
+{
+	border: 2px solid beige;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+tr
+{
+	background-color: rgba(210,105,30,0.4);
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: auto;
+	box-shadow: -5px -5px 5px gray;
+	border-collapse: collapse;
+}
+.tabela
+{
+	margin-left: 400px;
+}
+.content .ksiazki
+{
+	position: relative;
+	max-width: 300px;
+}
+.content .ksiazki h1
+{
+	color: #A0522D;
+	font-size: 4em;
+	line-height: 1.5em;
+	font-weight: 600;
+}
+.content .seria
+{
+	position: relative;
+	max-width: 600px;
+}
+.content .seria h1
+{
+	color: #A0522D;
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+.content .seria p
+{
+	color: rgba(50,26,6,0.9);
+	padding-right: 50px;
+	margin-right: 50px;
+	padding: 1px;
+	font-weight: 500;
+}
+.content .seria a
+{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: #D2691E;
+	color: rgba(50,26,6,0.9);
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.content .ksiazki .tabela a
+{
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 10px;
+	background: rgba(245,222,179,0.5);
+	color: #000;
+	border-radius: 60px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.content .chylkaimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .seria ol
+{
+	font-size: 20px;
+	padding: 5px;
+}
+.content .forstimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .gerardimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: 0px;
+	margin-top: 50px;
+}
+.content .damianimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .kregiimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .paraimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .sewerynimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: 0px;
+	margin-top: 50px;
+}
+.content .chorimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .oveimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .pozaimg
+{
+	float: left;
+	width: 720px;
+	display: flex;
+	justify-content: end;
+	padding-left: -10px;
+	margin-top: 50px;
+}
+.content .poza a
+{
+	display: inline-block;
+	margin-top: 1px;
+	padding: 8px 1px;
+	background: rgba(210, 180, 140, 0.6);
+	color: #000;
+	border-radius: 10px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 600;
+}
